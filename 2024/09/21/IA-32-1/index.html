@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>IA-32 | oneQuiz</title><meta name="author" content="oneQuiz"><meta name="copyright" content="oneQuiz"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="基本程序运行寄存器笔者在上一学期试着通过《逆向工程核心原理》接触逆向工程这一领域，其中寄存器部分作为重要的前置知识，笔者在书中第一次读到时，体验较为痛苦，知识难以下咽。好在在选修了计算机组成这门课以及用OD进行了多次动调之后对寄存器这里的知识有了更为清晰的认识。下面这篇 IA-32 寄存器学习笔记只是在复习计组时突然感受到知识连接起来的畅快感后，整理出的一篇学习笔记。 通用寄存器(General">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>IA-32 | oneQuiz</title><meta name="author" content="oneQuiz"><meta name="copyright" content="oneQuiz"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="基本程序运行寄存器笔者在上一学期试着通过《逆向工程核心原理》接触逆向工程这一领域，其中寄存器部分作为重要的前置知识，笔者在书中第一次读到时，体验较为痛苦，知识难以下咽。好在在选修了计算机组成这门课以及用OD进行了多次动调之后对寄存器这里的知识有了更为清晰的认识。下面这篇 IA-32 寄存器学习笔记只是在复习计组时突然感受到知识连接起来的畅快感后，整理出的一篇学习笔记。 通用寄存器(General">
 <meta property="og:type" content="article">
 <meta property="og:title" content="IA-32">
 <meta property="og:url" content="https://username.github.io/2024/09/21/IA-32-1/index.html">
@@ -130,7 +130,7 @@
       win.activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
         }
       }
       const t = saveToLocal.get('theme')
